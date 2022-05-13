@@ -6,44 +6,47 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
-
+import chatApp from '../assets/svg/projects/chatApp.png'
+import coder from '../assets/svg/projects/coder.png'
+import rottenPotatoes from '../assets/svg/projects/rottenPotatoes.png'
+import villaProperty from '../assets/svg/projects/villaProperty.png'
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Chat APP',
-        projectDesc: 'An interactive single-page application, supporting profile pictures and search',
-        tags: ['React', 'CSS', 'HTML'],
-        code: 'https://github.com/Contreras9/phase-2-react-project',
-        demo: 'https://www.youtube.com/watch?v=m_EipMY0cME',
-        image: one
+        projectName: 'Villa Property',
+        projectDesc: 'A full-stack responsive web application that lets users easily browse properties by location.',
+        tags: ['Ruby on Rails', 'React', 'Bootstrap'],
+        code: 'https://github.com/Contreras9/phase-5-rails-react-project',
+        demo: 'https://www.youtube.com/watch?v=-FXFtyZDA4c',
+        image: villaProperty
     },
     {
         id: 2,
-        projectName: 'Movie Database',
-        projectDesc: 'A review-aggregation website, resembling rottentomatoes.com',
-        tags: ['JavaScript', 'React', 'CSS', 'HTML'],
-        code: 'https://github.com/Contreras9/phase-3-sinatra-react-project-frontend',
-        demo: '',
-        image: two
+        projectName: 'ChatApp',
+        projectDesc: 'An interactive single-page application, that allows users to have one-on-one conversations.',
+        tags: ['React', 'Node.js', 'WebSockets'],
+        code: 'https://github.com/Contreras9/phase-2-react-project',
+        demo: 'https://www.youtube.com/watch?v=m_EipMY0cME',
+        image: chatApp
     },
     {
         id: 3,
-        projectName: 'Interactive Coding Tutorial ',
-        projectDesc: 'An app where users can solve challenges to compete for a high score',
-        tags: ['Ruby', 'CSS', 'JavaScript'],
-        code: 'https://github.com/Contreras9/phase-4-react-rails-project',
-        demo: 'https://www.youtube.com/watch?v=N7PCArC_ot0',
-        image: three
+        projectName: 'Rotten Potatoes',
+        projectDesc: 'A full-stack responsive web application review-aggregation website, resembling rottentomatoes.com.',
+        tags: ['Ruby', 'Sinatra', 'React'],
+        code: 'https://github.com/Contreras9/phase-3-sinatra-react-project-backend',
+        demo: 'https://www.youtube.com/watch?v=Ts_G3bzWNEg',
+        image: rottenPotatoes
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/Contreras9/phase-5-rails-react-project',
-        demo: 'https://www.youtube.com/watch?v=-FXFtyZDA4c',
-        image: four
+        projectName: 'Interactive Coding Tutorial',
+        projectDesc: 'A full-stack responsive web application that lets users can solve challenges to compete for a high score.',
+        tags: ['Ruby on Rails', 'React', 'JavaScript'],
+        code: 'https://github.com/Contreras9/phase-4-react-rails-project',
+        demo: 'https://www.youtube.com/watch?v=N7PCArC_ot0',
+        image: coder
     },
     // {
     //     id: 5,
