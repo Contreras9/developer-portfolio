@@ -1,9 +1,9 @@
 import resume from '../assets/pdf/resume.pdf'
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
+    name: 'Hamzah Contreras',
+    title: "Full-Stack Web Developer",
+    desciption: "Full Stack Web Developer passionate about technology and knowledgeable in Ruby on Rails, JavaScript (React, Redux), and SQL. A background in coordinating/time managing as a former Staff Accountant/HR Administrator with seven years of experience in dealing with multiple management software such as Compeat and HRMS and maintaining databases up to date. Strong skills in collaboration and communication, always focused on improving my skills and being beneficial to my team. I committed to enrolling at Flatiron School to transition into a more fulfilling, challenging career and become a successful software engineer in the professional world.",
+    image: 'https://avatars.githubusercontent.com/u/57229832?s=400&u=3801f7e96a417d7f49589dc8e0838dc3abb358cb&v=4',
     resumePdf: resume
 }

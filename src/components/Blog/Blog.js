@@ -1,15 +1,23 @@
-import React,{ useContext} from 'react';
+import React,{ useContext, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles';
 import { HiArrowRight } from "react-icons/hi";
 
 import './Blog.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
-import { blogData } from '../../data/blogData'
+// import { blogData } from '../../data/blogData'
 import SingleBlog from './SingleBlog/SingleBlog';
 
 
 function Blog() {
+
+    const [blogData, setBlogData] = useState([])
+
+    useEffect(() => {
+        fetch("https://dev.to/api/articles?username=contreras9")
+        .then(resp => resp.json())
+        .then(resp => setBlogData(resp))
+    }, [])
 
     const { theme } = useContext(ThemeContext);
 
@@ -54,8 +62,8 @@ function Blog() {
                                     theme={theme}
                                     title={blog.title}
                                     desc={blog.description}
-                                    date={blog.date}
-                                    image={blog.image}
+                                    date={blog.readable_publish_date}
+                                    image={blog.cover_image}
                                     url={blog.url}
                                     key={blog.id}
                                     id={blog.id}
