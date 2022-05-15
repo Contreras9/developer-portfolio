@@ -17,6 +17,6 @@ export const experienceData = [
         endYear: '2019',
         description1: '●	Collected and inspected every document to process several candidates’ resident visas, under time allowed by law.',
         description2: '●	Resolved multiple inquiries in a timing manner, to cut by 70% random stops at the office from anxious employees.',
-        description3: '●	Prepared termination letters and resignations, according to UAE laws to avoid any penalties from Ministry of Labor.'
+        description3: '●	Prepared termination letters and resignations, according to UAE laws to avoid penalties from Ministry of Labor.'
     }
 ]
