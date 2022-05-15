@@ -1,5 +1,6 @@
 .landing {
-  height: 100vh;
+  min-height: 100vh;
+  height :120vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -165,14 +166,14 @@
   .landing--img {
     --img-size: 200px;
     left: 50%;
-    top: 30%;
+    top: 20vh;
     border: 8px solid #eaeaea;
     transform: translate(-50%, -50%);
   }
   .landing--container-left {
     flex: initial;
     width: 100%;
-    height: 30%;
+    height: 20vh;
   }
   .landing--social {
     display: none;
@@ -181,7 +182,7 @@
     box-sizing: border-box;
     padding: 0 2rem;
     flex: initial;
-    height: 70%;
+    height: 100vh;
     width: 100%;
     background-color: #eaeaea;
     align-items: center;
@@ -220,7 +221,7 @@
 
 @media (max-width: 500px) {
   .lcr--content {
-    margin-top: 100%;
+    margin-top: 55%;
   }
 }
 @media (max-width: 370px) {
