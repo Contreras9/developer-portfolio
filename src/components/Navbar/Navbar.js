@@ -213,7 +213,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#hamzahResume'
+                                to='/#Hamzahs_Resume'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
